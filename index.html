@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left">
+        <img src="./assets/left-chevron.png" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img
+              class="carousel__image"
+              src="./assets/oguzhan-edman-IIqrQjYNur0-unsplash.jpg"
+              alt="image number 1"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="./assets/tyler-lee-F7zFObxyQaI-unsplash.jpg"
+              alt="image number 2"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="./assets/vivien-wauthier-ppJgYpncsI0-unsplash.jpg"
+              alt="image number 3"
+            />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./assets/chevron.png" alt="" />
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+  </body>
+</html>
